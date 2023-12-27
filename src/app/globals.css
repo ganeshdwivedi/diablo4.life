@@ -3,25 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+background-color: #191920;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+body::-webkit-scrollbar {
+  color: black;
+  
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+ input.search {
+   width: 260px;
+   border: 1px solid #555;
+   display: block;
+   padding: 9px 4px 9px 40px;
+   background: transparent url("https: //static-00.iconduck.com/assets.00/search-icon-2044x2048-psdrpqwp.png") no-repeat 13px;
+ }
